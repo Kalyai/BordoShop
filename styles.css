@@ -1,7 +1,8 @@
 body {
-    background-color: rgb(0, 0, 0);
+    background-color: #bbbbbb;
     color: #81a1c1;
     margin: 0;
+    font-family: 'Georgia', serif;
 }
 
 h1 {
@@ -13,6 +14,20 @@ h1 {
     border: 2px dashed gray;
     width: auto;
     display: inline;
+}
+
+h2 {
+    font-size: 400%;
+    text-align: center;
+    background-color: #ddeeff
+}
+
+h3 {
+    font-size: 300%;
+}
+
+h4 {
+    font-size: 400%;
 }
 
 p {
@@ -30,17 +45,11 @@ p.hat {
     color: black;
 }
 
-h2 {
-    font-size: 400%;
-    text-align: center;
-    background-color: #ddeeff
-}
-
 div {
     background-color: #333;
     overflow: auto;
     white-space: nowrap;
-    padding: 10px;
+    padding: 1%;
 }
 
 div.hat {
@@ -49,6 +58,35 @@ div.hat {
     background-size: cover;
     text-align: center;
 
+}
+
+div.customer {
+    background-size: cover;
+    border: 2px solid gray;
+    width: auto;
+    background-color: #181818
+}
+
+div.advantages {
+    color: rgb(79, 200, 250);
+    border: 10px solid black;
+    position: relative;
+}
+
+div.advantages-background {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: url("mechanizm3.jpg");
+    background-size: cover;
+    opacity: 0.15;
+}
+
+ul {
+    font-size: 300%;
+    color: #81a1c1;
 }
 
 a {
