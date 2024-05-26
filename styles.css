@@ -82,10 +82,16 @@ div.advantages-background {
     background-image: url("screenshots/mechanizm3.jpg");
     background-size: 100% 100%;
     opacity: 0.15;
+    z-index: 1;
 }
 
 ul {
-    font-size: 250%;
+    font-size: 300%;
+    color: #81a1c1;
+}
+
+p.ul {
+    font-size: 100%;
     color: #81a1c1;
 }
 
